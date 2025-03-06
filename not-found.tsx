@@ -13,3 +13,4 @@
 2025-03-08T10:20:57 - add README with project overview
 2025-03-05T15:32:16 - add search functionality
 2025-03-26T07:54:21 - add password hashing
+2025-03-06T03:12:26 - implement logout functionality
