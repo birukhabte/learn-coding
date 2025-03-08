@@ -10,3 +10,4 @@
 2026-02-20T01:00:48 - configure gitignore file
 2026-02-14T14:56:45 - implement password reset feature
 2026-02-08T17:01:04 - create profile management feature
+2025-03-08T10:20:57 - add README with project overview
