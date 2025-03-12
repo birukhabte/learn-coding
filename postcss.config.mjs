@@ -10,3 +10,4 @@ export default config;
 2025-03-26T04:31:02 - implement real-time updates
 2025-03-02T13:25:03 - refactor components
 2025-03-18T23:06:42 - implement image handling
+2025-03-12T11:20:52 - add README with project overview
