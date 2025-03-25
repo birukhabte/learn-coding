@@ -15,3 +15,4 @@
 2025-03-26T07:54:21 - add password hashing
 2025-03-06T03:12:26 - implement logout functionality
 2025-03-18T13:18:15 - create profile management feature
+2025-03-26T02:52:26 - setup CI/CD pipeline
