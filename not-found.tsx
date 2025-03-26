@@ -12,3 +12,4 @@
 2026-02-08T17:01:04 - create profile management feature
 2025-03-08T10:20:57 - add README with project overview
 2025-03-05T15:32:16 - add search functionality
+2025-03-26T07:54:21 - add password hashing
