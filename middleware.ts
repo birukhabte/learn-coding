@@ -14,3 +14,4 @@ export function middleware(req: NextRequest) {
 export const config = {
   matcher: '/((?!pdf/).*)', // ignore pdf folder
 };
+2025-03-31T21:35:37 - release version 1.0
