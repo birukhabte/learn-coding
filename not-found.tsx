@@ -5,3 +5,4 @@
 2025-05-03T10:57:51 - fix UI bugs
 2025-05-02T18:07:42 - optimize file storage
 2026-02-20T04:50:10 - cleanup unused code
+2026-02-08T14:51:35 - setup CI/CD pipeline
