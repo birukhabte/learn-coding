@@ -8,3 +8,4 @@
 2026-02-15T07:55:59 - add form validation
 2026-02-13T19:01:11 - add password hashing
 2026-02-05T19:37:02 - create pagination system
+2026-02-10T02:25:34 - setup database connection
