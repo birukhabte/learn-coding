@@ -9,3 +9,4 @@
 2026-02-13T19:01:11 - add password hashing
 2026-02-05T19:37:02 - create pagination system
 2026-02-10T02:25:34 - setup database connection
+2026-02-13T07:58:36 - implement logout functionality
