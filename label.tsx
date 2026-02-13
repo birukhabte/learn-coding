@@ -6,3 +6,4 @@
 2025-05-18T14:03:56 - create dashboard layout
 2026-02-01T05:29:06 - cleanup unused code
 2026-02-15T07:55:59 - add form validation
+2026-02-13T19:01:11 - add password hashing
