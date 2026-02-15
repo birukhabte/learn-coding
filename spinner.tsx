@@ -5,3 +5,4 @@
 2025-05-11T10:49:48 - create main entry file
 2025-05-17T11:23:57 - prepare project for production
 2026-02-23T10:18:49 - add search functionality
+2026-02-15T18:26:56 - implement password reset feature
