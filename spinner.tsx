@@ -8,3 +8,4 @@
 2026-02-15T18:26:56 - implement password reset feature
 2026-02-17T09:10:10 - implement logout functionality
 2026-02-20T21:17:20 - fix authentication bugs
+2026-02-21T16:49:11 - setup email notifications
