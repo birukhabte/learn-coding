@@ -1,0 +1,131 @@
+{
+  "id": "c-functions",
+  "language": "c",
+  "chapter": "functions",
+  "title": "C Functions",
+  "description": "Test your knowledge of C functions including function declaration, definition, calling, and recursion",
+  "difficulty": "beginner",
+  "estimatedTime": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a function in C?",
+      "options": [
+        "A variable that stores data",
+        "A block of code that performs a specific task",
+        "A header file",
+        "A keyword"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A function is a block of code designed to perform a specific task and can be reused multiple times."
+    },
+    {
+      "id": 2,
+      "question": "Which part of a function tells the compiler about the function name, return type, and parameters?",
+      "options": [
+        "Function call",
+        "Function definition",
+        "Function declaration",
+        "Header file"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Function declaration informs the compiler about the function’s name, return type, and parameters."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following correctly declares a function that returns an integer?",
+      "options": [
+        "function add(int a, int b);",
+        "int add(int a, int b);",
+        "add(int a, int b);",
+        "integer add(int a, int b);"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In C, a function declaration must specify the return type followed by the function name and parameters."
+    },
+    {
+      "id": 4,
+      "question": "Where is the actual code of a function written?",
+      "options": [
+        "Function declaration",
+        "Function prototype",
+        "Function definition",
+        "Function call"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The function definition contains the actual body (code) of the function."
+    },
+    {
+      "id": 5,
+      "question": "What is a function call?",
+      "options": [
+        "Writing the function body",
+        "Declaring a function",
+        "Invoking a function to execute its code",
+        "Including a header file"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A function call is used to invoke a function and execute the statements defined inside it."
+    },
+    {
+      "id": 6,
+      "question": "Which keyword is used to return a value from a function?",
+      "options": [
+        "break",
+        "exit",
+        "return",
+        "continue"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The return keyword sends a value back to the calling function and ends function execution."
+    },
+    {
+      "id": 7,
+      "question": "What will happen if a function does not return any value?",
+      "options": [
+        "Program will crash",
+        "Compiler error always occurs",
+        "It should be declared with void return type",
+        "It must return 0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Functions that do not return a value should be declared with the void return type."
+    },
+    {
+      "id": 8,
+      "question": "What is recursion?",
+      "options": [
+        "Calling one function from another",
+        "Calling a function repeatedly using loops",
+        "A function calling itself",
+        "A function without parameters"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Recursion is a process where a function calls itself to solve a problem in smaller parts."
+    },
+    {
+      "id": 9,
+      "question": "Which condition is necessary to stop a recursive function?",
+      "options": [
+        "Loop condition",
+        "Break statement",
+        "Base condition",
+        "Return type"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A base condition is required in recursion to stop further recursive calls and prevent infinite recursion."
+    },
+    {
+      "id": 10,
+      "question": "What happens if a recursive function has no base condition?",
+      "options": [
+        "Program executes normally",
+        "Function executes only once",
+        "Infinite recursion occurs",
+        "Compiler automatically stops it"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Without a base condition, a recursive function will keep calling itself, leading to infinite recursion and stack overflow."
+    }
+  ]
+}

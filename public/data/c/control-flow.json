@@ -1,0 +1,131 @@
+{
+  "id": "c-control-flow",
+  "language": "c",
+  "chapter": "control-flow",
+  "title": "C Control Flow",
+  "description": "Test your knowledge of C control flow statements including if-else, switch, loops, and decision making",
+  "difficulty": "beginner",
+  "estimatedTime": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which statement is used for decision making in C?",
+      "options": [
+        "for",
+        "while",
+        "if",
+        "goto"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The if statement is used for decision making by executing code based on a condition."
+    },
+    {
+      "id": 2,
+      "question": "Which keyword is used to check multiple conditions in C?",
+      "options": [
+        "if-else",
+        "switch",
+        "break",
+        "continue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The switch statement is used to select execution paths based on a variable value."
+    },
+    {
+      "id": 3,
+      "question": "Which loop is guaranteed to execute at least once?",
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "nested loop"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The do-while loop executes its body at least once before checking the condition."
+    },
+    {
+      "id": 4,
+      "question": "What is the correct syntax of an if statement?",
+      "options": [
+        "if condition {}",
+        "if (condition) {}",
+        "if {condition}",
+        "if [condition]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In C, conditions in if statements must be written inside parentheses."
+    },
+    {
+      "id": 5,
+      "question": "Which keyword is used to exit a loop immediately?",
+      "options": [
+        "exit",
+        "stop",
+        "break",
+        "return"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The break statement terminates the loop immediately."
+    },
+    {
+      "id": 6,
+      "question": "Which loop is best suited when the number of iterations is known?",
+      "options": [
+        "while",
+        "do-while",
+        "for",
+        "switch"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The for loop is used when the number of iterations is known in advance."
+    },
+    {
+      "id": 7,
+      "question": "What happens if the break statement is missing in a switch case?",
+      "options": [
+        "Compilation error",
+        "Program stops",
+        "Execution continues to next case",
+        "Switch ends immediately"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Without break, control falls through to the next case statement."
+    },
+    {
+      "id": 8,
+      "question": "Which statement skips the current iteration of a loop?",
+      "options": [
+        "break",
+        "stop",
+        "continue",
+        "exit"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The continue statement skips the remaining code and moves to the next iteration."
+    },
+    {
+      "id": 9,
+      "question": "Which operator is commonly used in decision-making conditions?",
+      "options": [
+        "=",
+        "==",
+        ":=",
+        "=>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The '==' operator is used to compare two values in conditions."
+    },
+    {
+      "id": 10,
+      "question": "Which statement is optional in a switch-case structure?",
+      "options": [
+        "case",
+        "break",
+        "switch",
+        "expression"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The break statement is optional, but without it, fall-through occurs."
+    }
+  ]
+}

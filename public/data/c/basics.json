@@ -1,0 +1,131 @@
+{
+  "id": "c-basics",
+  "language": "c",
+  "chapter": "basics",
+  "title": "C Programming Basics",
+  "description": "Test your knowledge of C programming fundamentals including variables, data types, and basic syntax",
+  "difficulty": "beginner",
+  "estimatedTime": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the correct way to declare an integer variable in C?",
+      "options": [
+        "int x;",
+        "integer x;",
+        "x: int;",
+        "var x: int;"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In C, integers are declared using the 'int' keyword followed by the variable name."
+    },
+    {
+      "id": 2,
+      "question": "Which header file is required to use printf() function?",
+      "options": [
+        "#include <stdlib.h>",
+        "#include <stdio.h>",
+        "#include <string.h>",
+        "#include <math.h>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "stdio.h (standard input/output header) contains the declaration for printf() function."
+    },
+    {
+      "id": 3,
+      "question": "What is the size of 'int' data type in a 32-bit compiler?",
+      "options": [
+        "2 bytes",
+        "4 bytes",
+        "8 bytes",
+        "1 byte"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a 32-bit compiler, the int data type typically occupies 4 bytes of memory."
+    },
+    {
+      "id": 4,
+      "question": "Which operator is used to access the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "#"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The '&' (ampersand) operator is used to get the memory address of a variable."
+    },
+    {
+      "id": 5,
+      "question": "What is the correct syntax for a single-line comment in C?",
+      "options": [
+        "# This is a comment",
+        "// This is a comment",
+        "/* This is a comment",
+        "-- This is a comment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In C, single-line comments start with '//' and continue until the end of the line."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is NOT a valid C variable name?",
+      "options": [
+        "_variable",
+        "variable123",
+        "123variable",
+        "variableName"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Variable names in C cannot start with a digit. They must begin with a letter or underscore."
+    },
+    {
+      "id": 7,
+      "question": "What does the 'return 0;' statement indicate in main()?",
+      "options": [
+        "Program has errors",
+        "Program executed successfully",
+        "Program is running",
+        "Program needs input"
+      ],
+      "correctAnswer": 1,
+      "explanation": "return 0; indicates that the program has executed successfully without errors."
+    },
+    {
+      "id": 8,
+      "question": "Which format specifier is used to print an integer?",
+      "options": [
+        "%f",
+        "%c",
+        "%d",
+        "%s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "%d is the format specifier used to print integer values in printf()."
+    },
+    {
+      "id": 9,
+      "question": "What is the range of 'char' data type in C?",
+      "options": [
+        "0 to 255",
+        "-128 to 127",
+        "-32768 to 32767",
+        "0 to 65535"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The char data type in C is typically signed and ranges from -128 to 127."
+    },
+    {
+      "id": 10,
+      "question": "Which keyword is used to define a constant in C?",
+      "options": [
+        "constant",
+        "const",
+        "final",
+        "static"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'const' keyword is used to define constants in C that cannot be modified."
+    }
+  ]
+}
