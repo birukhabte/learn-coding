@@ -1,0 +1,66 @@
+{
+  "title": "Standard Template Library",
+  "description": "Vectors, maps, sets, and algorithms",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which header file is required to use vectors in C++?",
+      "options": [
+        "#include <array>",
+        "#include <vector>",
+        "#include <list>",
+        "#include <container>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <vector> header file provides the vector container class."
+    },
+    {
+      "id": 2,
+      "question": "How do you add an element to the end of a vector?",
+      "options": [
+        "vector.add(element)",
+        "vector.append(element)",
+        "vector.push_back(element)",
+        "vector.insert(element)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The push_back() method adds an element to the end of a vector."
+    },
+    {
+      "id": 3,
+      "question": "What does STL stand for?",
+      "options": [
+        "Standard Type Library",
+        "Standard Template Library",
+        "System Template Library",
+        "Standard Tool Library"
+      ],
+      "correctAnswer": 1,
+      "explanation": "STL stands for Standard Template Library, a collection of template classes and functions."
+    },
+    {
+      "id": 4,
+      "question": "Which STL container stores unique elements in sorted order?",
+      "options": [
+        "vector",
+        "map",
+        "set",
+        "list"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A set stores unique elements in sorted order automatically."
+    },
+    {
+      "id": 5,
+      "question": "What is the time complexity of accessing an element in a vector by index?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n^2)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Accessing an element by index in a vector is O(1) - constant time."
+    }
+  ]
+}

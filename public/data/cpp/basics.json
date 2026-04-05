@@ -1,0 +1,126 @@
+{
+  "title": "C++ Programming Basics",
+  "description": "Variables, data types, operators, and basic syntax",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is the correct syntax to output 'Hello World' in C++?",
+      "options": [
+        "cout << 'Hello World';",
+        "System.out.println('Hello World');",
+        "print('Hello World');",
+        "echo 'Hello World';"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In C++, cout is used with the insertion operator (<<) to output text to the console."
+    },
+    {
+      "id": 2,
+      "question": "What is the correct way to declare a variable in C++?",
+      "options": [
+        "int x;",
+        "variable x;",
+        "x = int;",
+        "declare int x;"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Variables in C++ are declared by specifying the data type followed by the variable name."
+    },
+    {
+      "id": 3,
+      "question": "Which header file is required for input/output operations in C++?",
+      "options": [
+        "#include <stdio.h>",
+        "#include <iostream>",
+        "#include <io.h>",
+        "#include <stream.h>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <iostream> header file provides input/output stream objects like cin and cout."
+    },
+    {
+      "id": 4,
+      "question": "What is the size of 'int' data type in C++ (on most systems)?",
+      "options": [
+        "2 bytes",
+        "4 bytes",
+        "8 bytes",
+        "1 byte"
+      ],
+      "correctAnswer": 1,
+      "explanation": "On most modern systems, an int is 4 bytes (32 bits), though this can vary by platform."
+    },
+    {
+      "id": 5,
+      "question": "Which operator is used to access members of a namespace in C++?",
+      "options": [
+        ".",
+        "->",
+        "::",
+        "#"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The scope resolution operator (::) is used to access members of a namespace or class."
+    },
+    {
+      "id": 6,
+      "question": "What is the correct way to create a comment in C++?",
+      "options": [
+        "# This is a comment",
+        "/* This is a comment",
+        "// This is a comment",
+        "<!-- This is a comment -->"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Single-line comments in C++ start with //. Multi-line comments use /* */."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is NOT a valid C++ data type?",
+      "options": [
+        "int",
+        "float",
+        "boolean",
+        "char"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In C++, the boolean data type is 'bool', not 'boolean'."
+    },
+    {
+      "id": 8,
+      "question": "What does the 'using namespace std;' statement do?",
+      "options": [
+        "Creates a new namespace",
+        "Allows using standard library names without std:: prefix",
+        "Imports all C++ libraries",
+        "Defines a standard function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This statement allows you to use standard library names (like cout, cin) without the std:: prefix."
+    },
+    {
+      "id": 9,
+      "question": "Which symbol is used to terminate a statement in C++?",
+      "options": [
+        ".",
+        ",",
+        ";",
+        ":"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Every statement in C++ must end with a semicolon (;)."
+    },
+    {
+      "id": 10,
+      "question": "What is the correct way to declare a constant in C++?",
+      "options": [
+        "constant int x = 5;",
+        "const int x = 5;",
+        "int const x = 5;",
+        "Both b and c"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Both 'const int x' and 'int const x' are valid ways to declare a constant in C++."
+    }
+  ]
+}

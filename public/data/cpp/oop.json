@@ -1,0 +1,66 @@
+{
+  "title": "Object-Oriented Programming",
+  "description": "Classes, objects, inheritance, and polymorphism",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a class in C++?",
+      "options": [
+        "A function",
+        "A blueprint for creating objects",
+        "A data type",
+        "A variable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A class is a user-defined blueprint or prototype from which objects are created."
+    },
+    {
+      "id": 2,
+      "question": "Which access specifier makes members accessible only within the class?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Private members are accessible only within the class itself."
+    },
+    {
+      "id": 3,
+      "question": "What is inheritance in C++?",
+      "options": [
+        "Creating multiple objects",
+        "A class acquiring properties of another class",
+        "Hiding data",
+        "Overloading functions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Inheritance allows a class to inherit properties and methods from another class."
+    },
+    {
+      "id": 4,
+      "question": "What is polymorphism?",
+      "options": [
+        "Having multiple forms",
+        "Data hiding",
+        "Code reusability",
+        "Memory allocation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Polymorphism means 'many forms' and allows objects to be treated as instances of their parent class."
+    },
+    {
+      "id": 5,
+      "question": "Which keyword is used to inherit a class in C++?",
+      "options": [
+        "extends",
+        "implements",
+        ":",
+        "inherit"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In C++, the colon (:) is used to specify inheritance."
+    }
+  ]
+}
