@@ -1,0 +1,131 @@
+{
+  "id": "java-basics",
+  "language": "java",
+  "chapter": "basics",
+  "title": "Java Basics",
+  "description": "Test your knowledge of Java fundamentals including syntax, variables, and core data types",
+  "difficulty": "beginner",
+  "estimatedTime": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which method is the entry point of a Java program?",
+      "options": [
+        "start()",
+        "main()",
+        "run()",
+        "init()"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Java applications start execution from the main method."
+    },
+    {
+      "id": 2,
+      "question": "Which keyword is used to create a class in Java?",
+      "options": [
+        "class",
+        "struct",
+        "object",
+        "define"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Java uses the class keyword to define classes."
+    },
+    {
+      "id": 3,
+      "question": "Which of these is a valid Java variable declaration?",
+      "options": [
+        "int x = 5;",
+        "x = int 5;",
+        "var int x = 5;",
+        "integer x = 5;"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Java declares typed variables using type, name, and optional assignment."
+    },
+    {
+      "id": 4,
+      "question": "Which primitive type stores whole numbers in Java?",
+      "options": [
+        "string",
+        "int",
+        "float",
+        "char"
+      ],
+      "correctAnswer": 1,
+      "explanation": "int is the standard integer primitive type in Java."
+    },
+    {
+      "id": 5,
+      "question": "How do you write a single-line comment in Java?",
+      "options": [
+        "# comment",
+        "// comment",
+        "/* comment */",
+        "-- comment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Java uses // for single-line comments."
+    },
+    {
+      "id": 6,
+      "question": "Which of these is not a Java primitive type?",
+      "options": [
+        "boolean",
+        "double",
+        "String",
+        "char"
+      ],
+      "correctAnswer": 2,
+      "explanation": "String is a class, not a primitive type."
+    },
+    {
+      "id": 7,
+      "question": "What does System.out.println() do?",
+      "options": [
+        "Reads input",
+        "Prints output with a new line",
+        "Defines a class",
+        "Compiles the program"
+      ],
+      "correctAnswer": 1,
+      "explanation": "System.out.println prints text and moves the cursor to the next line."
+    },
+    {
+      "id": 8,
+      "question": "Which operator is used for assignment in Java?",
+      "options": [
+        "==",
+        ":=",
+        "=",
+        "=>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A single equals sign is used for assignment."
+    },
+    {
+      "id": 9,
+      "question": "What is the size of a Java char?",
+      "options": [
+        "8 bits",
+        "16 bits",
+        "32 bits",
+        "64 bits"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Java char is a 16-bit Unicode code unit."
+    },
+    {
+      "id": 10,
+      "question": "Which keyword is used to define a constant in Java?",
+      "options": [
+        "static",
+        "final",
+        "const",
+        "immutable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "final is used to prevent reassignment of variables."
+    }
+  ]
+}

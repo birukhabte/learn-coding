@@ -1,0 +1,131 @@
+{
+  "id": "java-collections",
+  "language": "java",
+  "chapter": "collections",
+  "title": "Java Collections",
+  "description": "Learn Lists, Sets, Maps, and collection utilities in Java",
+  "difficulty": "beginner",
+  "estimatedTime": 12,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which interface represents an ordered collection that can contain duplicates?",
+      "options": [
+        "Set",
+        "List",
+        "Map",
+        "Queue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "List preserves order and allows duplicate values."
+    },
+    {
+      "id": 2,
+      "question": "Which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "ArrayList",
+        "Set",
+        "LinkedList"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Set collections do not allow duplicate values."
+    },
+    {
+      "id": 3,
+      "question": "Which class is a resizable array implementation in Java?",
+      "options": [
+        "HashMap",
+        "ArrayList",
+        "TreeSet",
+        "Hashtable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ArrayList provides a dynamically resizing array-backed list."
+    },
+    {
+      "id": 4,
+      "question": "What does a Map store?",
+      "options": [
+        "Single values in order",
+        "Key-value pairs",
+        "Only unique keys and values separately",
+        "Characters only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Maps associate keys with values."
+    },
+    {
+      "id": 5,
+      "question": "Which class provides a hash table-based implementation of Map?",
+      "options": [
+        "ArrayList",
+        "HashMap",
+        "TreeMap",
+        "LinkedList"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HashMap stores key-value pairs using hashing."
+    },
+    {
+      "id": 6,
+      "question": "Which method adds an element to the end of a List?",
+      "options": [
+        "add()",
+        "push()",
+        "insertEnd()",
+        "append()"
+      ],
+      "correctAnswer": 0,
+      "explanation": "add() is the common method used to insert into a List."
+    },
+    {
+      "id": 7,
+      "question": "Which method checks whether a collection contains an item?",
+      "options": [
+        "contains()",
+        "has()",
+        "includes()",
+        "find()"
+      ],
+      "correctAnswer": 0,
+      "explanation": "contains() returns true if the element exists."
+    },
+    {
+      "id": 8,
+      "question": "Which interface represents a collection of key-value mappings?",
+      "options": [
+        "Set",
+        "List",
+        "Map",
+        "Iterable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Map is the interface for key-value pairs."
+    },
+    {
+      "id": 9,
+      "question": "Which collection maintains sorted order by natural ordering or comparator?",
+      "options": [
+        "HashSet",
+        "TreeSet",
+        "ArrayList",
+        "Vector"
+      ],
+      "correctAnswer": 1,
+      "explanation": "TreeSet keeps elements sorted."
+    },
+    {
+      "id": 10,
+      "question": "Which utility class provides common collection algorithms like sort?",
+      "options": [
+        "System",
+        "Collections",
+        "Arrays",
+        "Objects"
+      ],
+      "correctAnswer": 1,
+      "explanation": "java.util.Collections provides utility methods for collection types."
+    }
+  ]
+}

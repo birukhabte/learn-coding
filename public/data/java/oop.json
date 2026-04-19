@@ -1,0 +1,131 @@
+{
+  "id": "java-oop",
+  "language": "java",
+  "chapter": "oop",
+  "title": "Java Object-Oriented Programming",
+  "description": "Practice classes, objects, inheritance, and polymorphism in Java",
+  "difficulty": "beginner",
+  "estimatedTime": 12,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is an object in Java?",
+      "options": [
+        "A blueprint for creating classes",
+        "An instance of a class",
+        "A package of methods only",
+        "A reserved keyword"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An object is an instance created from a class."
+    },
+    {
+      "id": 2,
+      "question": "Which keyword is used for inheritance in Java?",
+      "options": [
+        "inherits",
+        "extends",
+        "implements",
+        "super"
+      ],
+      "correctAnswer": 1,
+      "explanation": "extends is used when one class inherits from another class."
+    },
+    {
+      "id": 3,
+      "question": "Which keyword is used to implement an interface?",
+      "options": [
+        "extends",
+        "uses",
+        "implements",
+        "inherits"
+      ],
+      "correctAnswer": 2,
+      "explanation": "implements connects a class to an interface."
+    },
+    {
+      "id": 4,
+      "question": "What is encapsulation?",
+      "options": [
+        "Hiding internal data and exposing methods",
+        "Creating multiple objects",
+        "Using only static methods",
+        "Overloading constructors only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Encapsulation bundles data and methods while restricting direct access."
+    },
+    {
+      "id": 5,
+      "question": "Which access modifier makes a member visible only within the same class?",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "default"
+      ],
+      "correctAnswer": 2,
+      "explanation": "private members are accessible only inside the class."
+    },
+    {
+      "id": 6,
+      "question": "What is method overloading?",
+      "options": [
+        "Using the same method name with different parameters",
+        "Overriding a method in a subclass",
+        "Calling a method from another class",
+        "Deleting a method"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Overloading means same name, different parameter lists."
+    },
+    {
+      "id": 7,
+      "question": "What is method overriding?",
+      "options": [
+        "Declaring a method static",
+        "Replacing a superclass method in a subclass",
+        "Using multiple return values",
+        "Calling super() in a constructor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Overriding lets a subclass provide a new implementation for a parent method."
+    },
+    {
+      "id": 8,
+      "question": "Which keyword refers to the current object?",
+      "options": [
+        "this",
+        "self",
+        "obj",
+        "current"
+      ],
+      "correctAnswer": 0,
+      "explanation": "this refers to the current instance of the class."
+    },
+    {
+      "id": 9,
+      "question": "Which keyword calls the parent class constructor?",
+      "options": [
+        "parent",
+        "base",
+        "super",
+        "this"
+      ],
+      "correctAnswer": 2,
+      "explanation": "super() is used to call the superclass constructor."
+    },
+    {
+      "id": 10,
+      "question": "What is polymorphism?",
+      "options": [
+        "One object having many forms",
+        "One class with only one method",
+        "A class without fields",
+        "A method with no return value"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Polymorphism allows a single interface to represent different underlying forms."
+    }
+  ]
+}
