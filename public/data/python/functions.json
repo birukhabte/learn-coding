@@ -1,0 +1,131 @@
+{
+  "id": "python-functions",
+  "language": "python",
+  "chapter": "functions",
+  "title": "Python Functions",
+  "description": "Learn how to define, call, and work with Python functions",
+  "difficulty": "beginner",
+  "estimatedTime": 12,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which keyword is used to define a function in Python?",
+      "options": [
+        "function",
+        "def",
+        "fun",
+        "lambda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Functions are defined using the def keyword."
+    },
+    {
+      "id": 2,
+      "question": "What is the purpose of return in a function?",
+      "options": [
+        "Stops the program",
+        "Sends a value back from the function",
+        "Prints the result automatically",
+        "Creates a loop"
+      ],
+      "correctAnswer": 1,
+      "explanation": "return sends a value back to the caller."
+    },
+    {
+      "id": 3,
+      "question": "What is a function parameter?",
+      "options": [
+        "A value passed into a function",
+        "A value returned by a function",
+        "A built-in function",
+        "A variable that cannot change"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parameters are the inputs a function receives."
+    },
+    {
+      "id": 4,
+      "question": "What is the output of len([1, 2, 3])?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "Error"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The list contains three items."
+    },
+    {
+      "id": 5,
+      "question": "Which of these defines a lambda function?",
+      "options": [
+        "lambda x: x + 1",
+        "def lambda x + 1",
+        "function(x) { return x + 1 }",
+        "lambda(x) => x + 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Python uses the lambda keyword for small anonymous functions."
+    },
+    {
+      "id": 6,
+      "question": "What happens if a function has no return statement?",
+      "options": [
+        "It returns 0",
+        "It returns None",
+        "It throws an error",
+        "It returns the last printed value"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Functions without an explicit return return None."
+    },
+    {
+      "id": 7,
+      "question": "Which argument type lets you pass any number of positional arguments?",
+      "options": [
+        "*args",
+        "**kwargs",
+        "params",
+        "optional"
+      ],
+      "correctAnswer": 0,
+      "explanation": "*args collects extra positional arguments into a tuple."
+    },
+    {
+      "id": 8,
+      "question": "Which argument type collects keyword arguments into a dictionary?",
+      "options": [
+        "*args",
+        "**kwargs",
+        "dictargs",
+        "varargs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "**kwargs collects extra keyword arguments into a dictionary."
+    },
+    {
+      "id": 9,
+      "question": "What is recursion?",
+      "options": [
+        "A function calling itself",
+        "A loop that never ends",
+        "A function with no parameters",
+        "A built-in Python module"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Recursion occurs when a function calls itself."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is a built-in Python function?",
+      "options": [
+        "print",
+        "println",
+        "echo",
+        "writeLine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "print is one of Python's built-in functions."
+    }
+  ]
+}

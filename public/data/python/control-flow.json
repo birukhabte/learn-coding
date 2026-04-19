@@ -1,0 +1,131 @@
+{
+  "id": "python-control-flow",
+  "language": "python",
+  "chapter": "control-flow",
+  "title": "Python Control Flow",
+  "description": "Practice conditionals, loops, and control flow logic in Python",
+  "difficulty": "beginner",
+  "estimatedTime": 12,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which keyword starts an if statement in Python?",
+      "options": [
+        "if",
+        "when",
+        "case",
+        "check"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Python uses if to begin a conditional statement."
+    },
+    {
+      "id": 2,
+      "question": "What keyword is used for an alternative branch after if?",
+      "options": [
+        "else",
+        "then",
+        "otherwise",
+        "next"
+      ],
+      "correctAnswer": 0,
+      "explanation": "else runs when the if condition is false."
+    },
+    {
+      "id": 3,
+      "question": "Which loop is commonly used to iterate over a sequence?",
+      "options": [
+        "repeat",
+        "for",
+        "loop",
+        "iterate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "for loops are used to iterate over items in a sequence."
+    },
+    {
+      "id": 4,
+      "question": "What does range(3) generate?",
+      "options": [
+        "0, 1, 2",
+        "1, 2, 3",
+        "0, 1, 2, 3",
+        "3, 4, 5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "range(3) produces values from 0 up to, but not including, 3."
+    },
+    {
+      "id": 5,
+      "question": "Which keyword skips the rest of the current loop iteration?",
+      "options": [
+        "stop",
+        "skip",
+        "continue",
+        "pass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "continue skips to the next iteration of the loop."
+    },
+    {
+      "id": 6,
+      "question": "Which keyword exits a loop immediately?",
+      "options": [
+        "exit",
+        "break",
+        "return",
+        "stop"
+      ],
+      "correctAnswer": 1,
+      "explanation": "break terminates the loop right away."
+    },
+    {
+      "id": 7,
+      "question": "What symbol is used for comparison in Python?",
+      "options": [
+        "=",
+        "==",
+        "!=",
+        ":="
+      ],
+      "correctAnswer": 1,
+      "explanation": "== compares values, while = assigns values."
+    },
+    {
+      "id": 8,
+      "question": "What is the result of 5 > 2?",
+      "options": [
+        "True",
+        "False",
+        "5",
+        "2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "5 is greater than 2, so the expression is True."
+    },
+    {
+      "id": 9,
+      "question": "Which keyword can be used when a block is required syntactically but no action is needed?",
+      "options": [
+        "nil",
+        "pass",
+        "skip",
+        "empty"
+      ],
+      "correctAnswer": 1,
+      "explanation": "pass is a no-op statement used when Python requires a statement."
+    },
+    {
+      "id": 10,
+      "question": "What does the else clause on a for loop do?",
+      "options": [
+        "Runs before the loop starts",
+        "Runs only if the loop completes normally",
+        "Runs only if break is used",
+        "Never runs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The else block runs if the loop finishes without encountering break."
+    }
+  ]
+}

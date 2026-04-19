@@ -1,0 +1,131 @@
+{
+  "id": "python-basics",
+  "language": "python",
+  "chapter": "basics",
+  "title": "Python Basics",
+  "description": "Test your knowledge of Python fundamentals including syntax, variables, and core data types",
+  "difficulty": "beginner",
+  "estimatedTime": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "How do you print text in Python?",
+      "options": [
+        "print('Hello')",
+        "echo('Hello')",
+        "console.log('Hello')",
+        "printf('Hello')"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Python uses the print() function to display output."
+    },
+    {
+      "id": 2,
+      "question": "Which of these is a valid Python variable name?",
+      "options": [
+        "2name",
+        "first_name",
+        "first-name",
+        "class"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Variable names can include underscores and cannot start with a number or use reserved keywords."
+    },
+    {
+      "id": 3,
+      "question": "What is the correct way to assign the value 5 to x?",
+      "options": [
+        "x == 5",
+        "x := 5",
+        "x = 5",
+        "int x = 5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Python uses a single equals sign for assignment."
+    },
+    {
+      "id": 4,
+      "question": "Which data type is immutable in Python?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Tuples are immutable, while lists, dictionaries, and sets are mutable."
+    },
+    {
+      "id": 5,
+      "question": "How do you write a single-line comment in Python?",
+      "options": [
+        "// comment",
+        "# comment",
+        "/* comment */",
+        "-- comment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Python uses the # symbol for single-line comments."
+    },
+    {
+      "id": 6,
+      "question": "What is the result of type(3.14)?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bool"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A decimal number like 3.14 is a float in Python."
+    },
+    {
+      "id": 7,
+      "question": "Which keyword is used to define a function in Python?",
+      "options": [
+        "function",
+        "def",
+        "fun",
+        "define"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Python functions are defined with the def keyword."
+    },
+    {
+      "id": 8,
+      "question": "What does len('Python') return?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "Error"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The string 'Python' has 6 characters."
+    },
+    {
+      "id": 9,
+      "question": "Which collection stores items in key-value pairs?",
+      "options": [
+        "list",
+        "tuple",
+        "dict",
+        "set"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dictionaries store data as key-value pairs."
+    },
+    {
+      "id": 10,
+      "question": "Which operator is used for exponentiation in Python?",
+      "options": [
+        "^",
+        "**",
+        "//",
+        "%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Python uses ** for exponentiation."
+    }
+  ]
+}
